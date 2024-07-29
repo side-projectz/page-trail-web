@@ -20,10 +20,10 @@ const Hero = () => {
             Currently in development
           </Badge>
 
-          <h1 className="mb-8 text-6xl font-medium leading-snug md:font-medium md:leading-tight lg:text-7xl">
+          <h1 className="mb-4 text-4xl font-medium leading-snug md:text-5xl md:font-medium md:leading-tight lg:text-6xl">
             <Balancer>Learn your online behavior</Balancer>
           </h1>
-          <h3 className="text-2xl font-light leading-10 tracking-wide text-muted-foreground">
+          <h3 className="text-xl font-light leading-8 tracking-wide text-muted-foreground">
             <Balancer>
               For digital explorers and productivity enthusiasts, helps you
               understand your online habits and maximize your productivity.
@@ -40,11 +40,28 @@ const Hero = () => {
             />
           </div>
 
-          <Button asChild variant={"outline"}>
-            <Link href={'https://app-page-trail.vercel.app/'}>
-            Sign up for the Beta
+          <div className="mb-4">
+            <Link
+              href="https://www.producthunt.com/products/page-trail?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-page&#0045;trail"
+              target="_blank"
+            >
+              <Image
+                src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=595895&theme=light"
+                alt="Page&#0032;Trail - Understand&#0032;Your&#0032;Browsing&#0032;Habits&#0032;with&#0032;Page&#0032;Trail | Product Hunt"
+                style={{ width: "250px", height: "54px" }}
+                width="250"
+                height="54"
+              />
             </Link>
-          </Button>
+          </div>
+
+          <div>
+            <Button asChild variant={"default"}>
+              <Link href={"https://app-pagetrail.vercel.app/"}>
+                Sign up for the Beta
+              </Link>
+            </Button>
+          </div>
         </div>
       </Container>
     </Section>
