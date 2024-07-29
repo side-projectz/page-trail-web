@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -39,7 +40,11 @@ const Hero = () => {
             />
           </div>
 
-          <Button variant={"outline"}>Sign up for the Beta</Button>
+          <Button asChild variant={"outline"}>
+            <Link href={'https://app-page-trail.vercel.app/'}>
+            Sign up for the Beta
+            </Link>
+          </Button>
         </div>
       </Container>
     </Section>
