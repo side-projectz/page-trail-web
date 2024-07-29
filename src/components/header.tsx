@@ -12,10 +12,10 @@ export default function Header() {
             <nav className="flex items-center gap-4">
               <ModeToggle />
               <Button asChild variant={"default"}>
-                <Link href={"https://page-trail-app.vercel.app"} target="_top">
+                <Link href={"https://app-pagetrail.vercel.app"} target="_top">
                 Get started
                 </Link>
-                </Button>
+              </Button>
             </nav>
           </div>
         </Container>
