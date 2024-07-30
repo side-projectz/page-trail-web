@@ -12,7 +12,7 @@ export default function Header() {
             <nav className="flex items-center gap-4">
               <ModeToggle />
               <Button asChild variant={"default"}>
-                <Link href={"https://app-pagetrail.vercel.app"} target="_top">
+                <Link href={"https://chromewebstore.google.com/detail/pagetrail/lalpgpioopjnjbapmmmnjckppogncaog"} target="_top">
                 Get started
                 </Link>
               </Button>
